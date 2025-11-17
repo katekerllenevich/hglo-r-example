@@ -41,6 +41,7 @@ graph2 <- ggplot(data, aes(x=year, y=gdp, color=cn)) +
     title = "GDP over time by Country"
   )
 
+## scatterplot
 graph3 <- ggplot(data, aes(x=year, y=gdp, color=cn)) +
   geom_point() +
   labs(
